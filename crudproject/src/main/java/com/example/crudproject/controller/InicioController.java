@@ -8,6 +8,6 @@ public class InicioController {
 
     @GetMapping("/")
     public String inicio() {
-        return "API Mobile funcionando";
+        return "API Mobile funcionando :) ";
     }
 }
