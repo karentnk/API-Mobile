@@ -1,4 +1,9 @@
 # API-Mobile
-Desenvolver uma API funcional (CRUD) para gerenciar uma biblioteca pessoal de jogos e
-suas respectivas avaliações. Esta API será utilizada como backend para as aplicações mobile
-que desenvolveremos ao longo do bimestre.
+
+API REST desenvolvida em Java com Spring Boot para gerenciamento de jogos e avaliações.
+
+O projeto foi criado como backend para aplicações mobile desenvolvidas durante o bimestre, utilizando operações CRUD.
+
+## Deploy Online
+
+https://apimobile.up.railway.app
