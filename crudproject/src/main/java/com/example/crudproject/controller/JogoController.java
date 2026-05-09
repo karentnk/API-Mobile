@@ -22,10 +22,6 @@ public class JogoController {
     public ResponseEntity<List<Jogo>> listar() {
         return ResponseEntity.ok(service.listarTodos());
     }
-    @GetMapping("/")
-    public String inicio() {
-        return "API funcionando";
-    }
 
     @GetMapping("/{id}")
     public ResponseEntity<Jogo> buscarPorId(@PathVariable Long id) {
